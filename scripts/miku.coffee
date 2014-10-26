@@ -10,9 +10,7 @@
 
 module.exports = (robot) ->
 
-  lulz = ['lol',
-       	  'rofl',
-	  'lmao']
+  lunch = ['lol','rofl','lmao']
   
   robot.respond /今日のランチ/i, (msg) ->
-    msg.send msg.random lulz
+    msg.send msg.random lunch
