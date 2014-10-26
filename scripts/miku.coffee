@@ -27,3 +27,6 @@ module.exports = (robot) ->
 （＿フ彡             / ←>> @#{msg.message.user.name}
 ```
   """
+
+  robot.hear /がんばるぞい/, (msg) ->
+    msg.send "https://pbs.twimg.com/profile_images/496642140265385984/IYVExp-h.jpeg"
